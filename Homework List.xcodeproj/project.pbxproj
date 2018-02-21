@@ -12,6 +12,8 @@
 		3D3A60FC203E24DD00B6ED36 /* Homework_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A60FA203E24DD00B6ED36 /* Homework_List.xcdatamodeld */; };
 		3D3A60FE203E24DD00B6ED36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A60FD203E24DD00B6ED36 /* Assets.xcassets */; };
 		3D3A6101203E24DD00B6ED36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A60FF203E24DD00B6ED36 /* LaunchScreen.storyboard */; };
+		3D3A6109203E273600B6ED36 /* HomeworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A6108203E273600B6ED36 /* HomeworkTableViewController.swift */; };
+		3D3A610B203E398B00B6ED36 /* Homework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A610A203E398B00B6ED36 /* Homework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3D3A60FD203E24DD00B6ED36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3A6100203E24DD00B6ED36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3A6102203E24DD00B6ED36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3A6108203E273600B6ED36 /* HomeworkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkTableViewController.swift; sourceTree = "<group>"; };
+		3D3A610A203E398B00B6ED36 /* Homework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				3D3A60F3203E24DD00B6ED36 /* AppDelegate.swift */,
+				3D3A6108203E273600B6ED36 /* HomeworkTableViewController.swift */,
+				3D3A610A203E398B00B6ED36 /* Homework.swift */,
 				3D3A60F7203E24DD00B6ED36 /* Main.storyboard */,
 				3D3A60FD203E24DD00B6ED36 /* Assets.xcassets */,
 				3D3A60FF203E24DD00B6ED36 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D3A60FC203E24DD00B6ED36 /* Homework_List.xcdatamodeld in Sources */,
+				3D3A610B203E398B00B6ED36 /* Homework.swift in Sources */,
+				3D3A6109203E273600B6ED36 /* HomeworkTableViewController.swift in Sources */,
 				3D3A60F4203E24DD00B6ED36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
