@@ -10,10 +10,11 @@ import UIKit
 
 class HomeworkTableViewController: UITableViewController {
     
+    var homeworks : [Homework] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        homeworks = createHomeworks()
     }
 
     func createHomeworks() -> [Homework]{
