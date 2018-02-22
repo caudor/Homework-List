@@ -32,7 +32,7 @@ class HomeworkTableViewController: UITableViewController {
         langArt.subject = "Language Arts"
         langArt.due = "Next Wednesday 10/25"
         langArt.detail = "Do the adverb problem sheet -- all problems"
-        
+        print("Array created")
         return [science, math, langArt]
     }
     
@@ -45,7 +45,7 @@ class HomeworkTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "mycells", for: indexPath)
 
-        // Configure the cell...
+        
 
         return cell
     }
